@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+  
+    padding: 5px;
+    background-color: #F3FCF7;
+}
+a{
+ 
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+.navbar{
+  margin-left: 15%;
+}
+/* main..... */
+  .btn{
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px;
+    height: 50px;
+    width: 200px;
+   background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+   
+  }
+
+  .btn-icon {
+    font-size:16px;
+   
+  }
+  
+
+/* ............main..........  */
+.main{
+ 
+  display: flex;
+  justify-content: space-between;
+  background-color: #F3FCF7;
+  height: 400px;
+}
+.textPart{
+  margin-left: 110px;
+}
+.img1{
+  width: 400px;
+  height: 400px;
+  margin-left: 100px;
+}
+.icon{
+  display: flex;
+ justify-content: space-between;
+ margin-top: -70px;
+ background-color: #FFFFFF;
+ height: 20vh;
+margin-right: 10px;
+}
+
+/* <!-- service section start --> */
+.service{
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.div1{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 100px;
+}
+.divIcon{
+  width: 40px;
+  height: 30px;
+  margin-top: 15px;
+  padding: 5px;
+  border-radius:5px ;
+  text-align: center;
+  background-color: #06C167;
+}
+.divText{
+padding: 10px;/
+}
+/* <!-- The More Healthy Food The Better start --> */
+.Healthy{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  height: 80vh;
+  width: 100%;
+
+  
+}
+
+.box{
+  height: 300px;
+  width: 550px;
+  background-color: #F3FAFB;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.img2{
+  height: 530px;
+  width: 510px;
+  margin-left: 20px;
+   margin-top: 50px;
+}
+/* <!-- The More Healthy Food The Better End --> */
+.checklist-item {
+  display: flex;
+ 
+}
+.fa-check{
+ 
+  margin-top: 20px;
+  color: rgb(10, 241, 2);
+}
+
+.Htext{
+  margin-left: -600px;
+  margin-top: 20px;
+
+
+}
+/* <!-- Veggie Food Goes On And Always On Start --> */
+.VeggieFood{
+  display: flex;
+  justify-content: space-around;
+}
+.box1{
+  height: 450px;
+  width: 440px;
+ 
+  margin-right: 200px;
+}
+.img3{
+  height: 440px;
+  width: 430px;
+  margin-left: 20px;
+}
+.TEXT{
+  margin-left: 200px;
+}
+.Inside{
+  display: flex;
+  padding: 10px;
+  margin: 30px;
+ 
+}
+
+ .posss{
+  margin-left: 150px;
+ }
+ .pos{
+  margin-left: 150px;
+ }
+
+.poss{
+  margin-left: -30px;
+}
+
+/* <!-- Variety Of Foods Start --> */
+.VarietyOfFoods{
+  display: flex;
+  justify-content: space-around;
+  width: 86%;
+margin-left: 7%;
+  text-align: center;
+  
+}
+.IMGALL{
+  width: 290px;
+  height: 300px;
+
+}
+.BOX{
+  width: 290px;
+  height: 300px;
+ 
+  background: #06C167;
+}
+.btnn{
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px 10px;
+  height: 50px;
+  width: 150px;
+ background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  font-size: 10px;
+  margin-left: 50px;
+ 
+ 
+}
+
+.btnicon {
+  font-size:16px;
+ 
+}
+.Features{
+  text-align: center;
+  margin-top: 50px;
+}
+/* <!-- Most Popular Product Start... --> */
+
+.Product{
+  display: flex;
+  justify-content: space-between;
+  width: 86%;
+  margin-left: 7%;
+ text-align: center;
+
+  margin-top: 60px;
+}
+.ProductImg{
+  margin-top: 10px;
+  height: 190px;
+  width: 190px;
+margin-left: 40px;
+}
+.ProductBox{
+  border: 2px solid black;
+  width: 270px;
+  height: 375px;
+}
+.Btn{
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px 10px;
+  height: 50px;
+  width: 150px;
+ background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  font-size: 10px;
+ 
+  border: 1px solid black;
+}
+.hp{
+  margin-top: 70px;
+  margin-left: 7%;
+}
+/* <!-- Veggie Foods? Ingredients You Want To Try start--> */
+.Ingredients{
+  background-image: url(image/Rectangle\ 8.png);
+  width: 86%;
+  margin-left: 7%;
+  height: 400px;
+  margin-top: 100px;
+ align-items: center;
+}
+.Btnn{
+  background-color: #06C167;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px 10px;
+  height: 50px;
+  width: 150px;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  font-size: 10px;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+.heading{
+  font-size: 3rem;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 50px;
+}
+.ig{
+  justify-content: center;
+}
+/* <!-- footer section Start... --> */
+.social-icons {
+  display: flex;
+  justify-content: center; /* Centers icons horizontally */
+  gap: 10px; /* Adds spacing between icons */
+}
+
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  width: 86%;
+  margin-left: 7%;
+}
+.email{
+  width: 150px;
+  height: 40px;
+  border: none;
+}
+.email1{
+  width: 100px;
+  height: 40px;
+  background-color: #06C167;
+  border: none;
+  margin-left: 5px;
+}
